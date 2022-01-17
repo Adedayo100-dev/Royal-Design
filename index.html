@@ -1,172 +1,441 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RoyalDesigns | E-commerce</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Royal Classic Design</title>
         <meta name="keywords" content="">
         <meta name="description" content="">
-        <meta name="author" content="X-Emmet">
-        <link rel="icon" href="images/RDB-1.png" type="image/x-icon">
+        <meta name="author" content="Taiwo Adedayo">
+        <link rel="icon" href="images/RDB-1.png" type="image/x-icon"/>
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" >
-        <!-- Main CSS -->
-        <link rel="stylesheet" type="text/css" href="css/Bro Timi.css">
-        <!-- Hover CSS -->
-        <link rel="stylesheet" href="css/hover.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="css/navbar-toggler.css">
+        <!-- <link rel="stylesheet" href="css/hover.css"/> -->
+        <link rel="stylesheet" href="css/swiper.min.css">
     </head>
     <body>
-        <!-- 1st Section -->
-        <section class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <header class="masthead mb-auto">
-              <div class="inner">
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md sticky-top" aria-label="Fourth navbar example" id="nav">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="logo" src="images/RDB-1.png" alt="RoyalDesign Logo"></a>
-                <h3 class="masthead-brand">Royal Design</h3>
-                <!--Navigation-->
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="#">Home</a>  
-                    <a class="nav-link" href="#">About Me</a>  
-                    <a class="nav-link" href="#">Featured</a>
-                    <a class="nav-link" href="#">New Realeases</a>
-                    <a class="nav-link side-link " href="#">Royal Men<span class="caret"></span></a>
-                    <a class="nav-item dropdown">    
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contacts<span class="caret"></span></a><!--name as something studio,add "social media" contact,email , Mtn whatsapp number-->
-                        <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://instagram.com/r_yaldesigns?igshid=18fkosb3t4aqy">Instagram</a></li>
-                            <li><a class="dropdown-item" href="https://www.facebook.com/royaldesigns2017/">Facebook</a></li>
-                            <li><a class="dropdown-item" href="https://mail.google.com/mail/u/harnimashaun04@gmail.com">Email</a></li>
-                            <li><a class="dropdown-item" href="https://wa.me/2348100089904">Whatsapp</a></li>
-                        </ul> 
-                    </a> 
-                </nav>
-              </div>
-            </header>
-            <button class="navbar-toggler" type="button" onclick="openNav()" id="togbut" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--Search-->
-            <div class="container-fluid ">
-                <form class="form-inline flex-nowrap mx-auto my-2 my-lg-0 form-search">
-                    <input class="form-control mr-2" type="search" placeholder="Search..." aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-      
-            <div role="main" class="inner cover text-center mt-sm-3">
-              <h1 class="cover-heading " >Become A Royal Man Today.</h1>
-              <p class="lead">Grab the latest in our range of men's shoes</p>
-              <p class="lead">
-                <a href="#" class="btn btn-lg btn-secondary hvr-sweep-to-right hvr-pulse-grow">Shop Now!</a>
-              </p>
-            </div>
-      
-            <div class="mastfoot mt-auto">
-              <div class="inner text-center">
-                <p>Cover website for <a href="https://getbootstrap.com/">Royal Design</a>, by <a href="https://twitter.com/mdo">@taiwoadedayo</a>.</p>
-              </div>
-            </div>
-        </section>
-        <!-- 2nd Section -->
-        <section class="second p-3" id="second">
-                <!-- Carousel -->
-                <div id="myCarousel" class="carousel slide m-auto" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img src="images/best-website-for-hd-wallpapers-6.jpg" alt="" class="d-block img-fluid">
-                            <div class="container">
-                                <div class="carousel-caption d-none d-md-block text-left">
-                                    <h1>Example headline.</h1>
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                                <img src="images/best-website-for-hd-wallpapers-6.jpg" alt="" class="d-block img-fluid">
-                                <div class="container">
-                                    <div class="carousel-caption">
-                                        <h1>Another example headline.</h1>
-                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Order Now</a></p>
-                                    </div>
-                                </div>
-                        </div>
-                        <div class="carousel-item">
-                                <img src="images/best-website-for-hd-wallpapers-6.jpg" alt="" class="d-block img-fluid">
-                                <div class="container">
-                                    <div class="carousel-caption text-right">
-                                        <h1>One more for good measure.</h1>
-                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Join The Royal Men</a></p>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
+                <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample" aria-controls="navbarsExample" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="h-bar-1"></span>
+                    <span class="h-bar-2"></span>
+                    <span class="h-bar-3"></span>
                 </div>
-        </section>
-        
-        <!-- 3rd Section -->
-        <section>
-            <div class=" container-fluid d-flex flex-wrap flex-md-nowrap">
-                <div class="container-fluid big-image flex-fill mb-3">
-                    <p>LAGBAJA <br>
-                    'BLACK/BRIGHT CRIMSON'</p>
+            
+                <div class="collapse navbar-collapse " id="navbarsExample">
+                    <ul class="navbar-nav  mb-2 mb-md-0 ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#featured">Featured</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#latest">New Releases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Royal Men</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-expanded="false">Contact Us</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                                <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                                <li><a class="dropdown-item" href="#">Instagram</a></li>
+                                <li><a class="dropdown-item" href=":+2348100089994">Phone</a></li>
+                                <li><a class="dropdown-item" href="mailto:harnimashaun04@gmail.com">Email</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
                 </div>
-                <div class="container-fluid flex-fill p-0 ">
-                    <div class=" container-fluid row p-3 mx-0 p-sm-0">
-                        <div class="col-sm-6 px-0">
-                            <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
-                        </div>
-                        <div class="container-fluid col-sm-6 py-3 pl-0 pl-sm-3">
-                            <p>LAGBAJA <br>
-                               DISC BLAZE <br>
-                               'BLACK/BRIGHT CRIMSON' 
-                            </p>
-                            <div class="btn-group mt-auto float-right item-button"> 
-                                <button type="button" class="btn text-white border border-white">&#8358;</button> 
-                                <button type="button" class="btn text-white border border-white">5000</button> 
-                            </div>
-                        </div>
+            </div>
+        </nav>
+        <!-- 1st Section -->
+        <div class="swiper-container">
+            <div class="overlay" style="">
+                <div class="container-fluid jumb">
+                    <div class="inner text-center p-0">
+                        <h1 class="font-weight-bold mb-1" style="color: #cccccc">Royal Classic Design.</h1>
+                        <p class="preamble" style="color: #cccccc">Grab the latest in our range of men's shoes</p>
                     </div>
-                    <div class=" container-fluid row p-3 mx-0 p-sm-0 flex-wrap">
-                        <div class="container-fluid col-sm-6 py-3 pl-0 pl-sm-3">
-                            <p>LAGBAJA <br>
-                            'BLACK/BRIGHT CRIMSON' <br>
-                            NAVY</p>
-                            <div class="btn-group mt-auto float-right item-button"> 
-                                <button type="button" class="btn text-white border border-white">&#8358;</button> 
-                                <button type="button" class="btn text-white border border-white">5000</button> 
-                            </div>
-                        </div>
-                        <div class="col-sm-6 px-0">
-                            <img src="images/best-website-for-hd-wallpapers-6.jpg" class="item" width="100%" height="100%" alt="">
+                    
+                    <!--Search-->
+                    <div class="container-fluid px-0">
+                        <form class="input-group mx-auto">
+                            <input class="form-control border-right-0 border-0" type="search" id="searchbar" placeholder="Search..." aria-label="Search" aria-describedby="search">
+                            <!-- <button class="btn btn-outline-success" type="submit" id="search">Go!</button> -->
+                        </form>
+                    </div>
+                    <span id="count"></span>
+                    <div class="container-fluid mt-4">
+                        <div class="d-md-flex d-block mx-auto fit-content">
+                            <button class="btn d-block get-started mr-0 mr-md-3">
+                                <a href="#showroom" class="text-white">Get Started</a>
+                            </button>
+                            <button class="btn d-block hire-me mt-2 mt-md-0">
+                                <a href="" class="">Hire Me!</a>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Swiper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url('images/IMG-20200611-WA0010.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r4.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r37.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r38.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r39.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r35.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r11.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r1.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r5.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('images/r6.jpg')"></div>                   
+            </div>
+            <!-- Add Pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        
+        <!-- Swiper JS -->
+        <script src="js/swiper.min.js"></script>
+        
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            effect: 'fade',
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            // pagination: {
+            //     el: '.swiper-pagination',
+            // },
+            });
+        </script>
+            
+        <section class="" id="showroom">
+            <div class="latest-container">
+                <div class="latest-intro">
+                    <div class="latest-intro-heading">
+                        <h5 style="font-size: 20px; font-weight: 500;" id="latest">Latest</h5>
+                        <a href="">View All</a>
+                    </div>
+                    <p style="color: #838E95; font-size: 15px; font-weight: 400;">Most recently added to our collections</p>
+                </div>
+                <ul class="list-unstyled custom-scroll latest-list">
+                    <li>
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" class="latest-img"  alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" class="latest-img" height="100%" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" class="latest-img" height="100%" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" class="latest-img" height="100%" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" class="latest-img" height="100%" alt="">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="featured-container">
+                <div class="px-0 featured-intro">
+                    <div class="featured-intro-heading">
+                        <h5 style="font-size: 20px; font-weight: 500;" id="featured">Featured</h5>
+                        <a href="">View All</a>
+                    </div>
+                    <p style="color: #838E95; font-size: 15px; font-weight: 400;">Our incredible collection of shoes</p>
+                </div>
+                <ul class="list-unstyled row" id="showroom">
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Chelsea Boot</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Canvas</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Sandal</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Slippers</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Sandal</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Palm</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Chelsea Boot</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Chelsea Boot</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Chelsea Boot</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-6" style="margin-bottom: 15px;">
+                        <div>
+                            <a href="">
+                                <img src="images/best-website-for-hd-wallpapers-6.jpg" width="100%" class="item" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div style="padding-top: 15px; padding-bottom:15px;">
+                            <p style="color: #343434; font-size: 14px; font-weight:500;">Chelsea Boot</p>
+                            <!-- <span style="color: #343434; font-size: 14px; font-weight:400;">&#8358; 5000</span> -->
+                            <div class="btn-group  float-right item-button"> 
+                                <button type="button" class="btn border">&#8358;</button> 
+                                <button type="button" class="btn border">5000</button> 
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                  
         </section>
-        
-        <!--Exhibition Gallery-->
-        
 
-        <!--contact-->
-        <!--Social Media Icons-->
+        <div id="aboutme" class="text-white">
+            <img src="images/display-pic.jpg" class="mx-auto" alt="Oluwatimilehin">
+            <p style="text-align: center;">I'm Oluwatimilehin. A student of FUTA. I own a shoe making business and I make use of quality materials in crafting my products.</p>
+            <hr>
+            <div class="container-fluid text-center mt-3">
+                <p style="margin-bottom: 0.5rem;">Top creative is in high demand!</p>
+                <button class="btn btn-success"><a href="#callus" class="text-white">Hire Me Now!</a></button>
+            </div>              
+        </div>
+        <!-- <section class="testimonial">
+            <div class="test">
+                <svg class="qoutemark" style="width:32px;height:32px" viewBox="0 0 24 24"><path d="M0 13.6C0 17.7 2.47 20 5.247 20c2.469 0 4.32-2 4.32-4.3 0-2.4-1.748-4.2-4.114-4.2-.309 0-1.03.1-1.132.2.206-3.2 2.778-7.1 6.07-9.3L7.305 0C3.395 2.8 0 8 0 13.6zm14.61 0c0 4.1 2.365 6.4 5.143 6.4 2.572 0 4.424-2 4.424-4.3 0-2.4-1.749-4.2-4.115-4.2-.412 0-1.03.1-1.132.2.206-3.2 2.778-7.1 6.07-9.3L21.914 0c-4.013 2.8-7.305 8-7.305 13.6z" fill="currentColor"></path></svg>
+                <p class="testimony">We're known as a high-skilled marketplace, and we see an acute pain point within that area.</p>
+            </div>           
+        </section> -->
+
         <!--Footer-->
-        <footer>
-            <audio controls autoplay>
+        <footer id="footer">
+            <div class="container-fluid p-0 ml-0 text-white row justify-content-between">
+                <div class="col-md-4 col-12 pl-0 pr-0 mb-4 mb-md-0" id="callus">
+                    <h6>CALL US</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+2348100089994" class="contact">+(234)8100089994</a></li>
+                        <li><a href="tel:+2347069182166" class="contact">+(234)7069182166</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12 pl-0 pl-md-3 pr-0 pr-md-3 mb-4 mb-md-0">
+                    <h6>WRITE</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:harnimashaun04@gmail.com" class="contact">harnimashaun04@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12 pl-0 pr-0 mb-4 mb-md-0">
+                    <h6>VISIT</h6>
+                    <ul class="list-unstyled address">
+                        <li>North Gate,</li>
+                        <li>FUTA, Akure</li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="socialgroup list-unstyled mt-0 mt-md-5">
+                <li class="sociallist">
+                    <a href="https://wa.me/2348100089994" title="Whatsapp" target="_blank" rel="noreferrer noopener">
+                        <svg width="18" height="18" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg"><path d="M.215 16h3.643V5.204H.215V16zM2.06 0C.814 0 0 .806 0 1.865 0 2.903.792 3.73 2.013 3.73h.025c1.27 0 2.06-.827 2.06-1.865C4.075.805 3.308 0 2.06 0zM17 9.808V16h-3.645v-5.777c0-1.45-.526-2.44-1.847-2.44-1.007 0-1.603.667-1.87 1.313-.095.23-.12.553-.12.874V16H5.875s.05-9.782 0-10.796h3.645v1.53c-.007.012-.018.023-.025.036h.025v-.037c.485-.734 1.348-1.782 3.284-1.782C15.2 4.951 17 6.493 17 9.808z" fill="currentColor" fill-rule="evenodd"></path></svg>
+                    </a>
+                </li>
+                <li class="sociallist">
+                    <a href="https://twitter.com/" title="Twitter" target="_blank" rel="noreferrer noopener">
+                        <svg width="18" height="18" viewBox="0 0 21 17" xmlns="http://www.w3.org/2000/svg"><path d="M18.862 4.84c0-.19-.01-.369-.018-.557A8.445 8.445 0 0 0 21 2.1a8.609 8.609 0 0 1-2.475.638A4.188 4.188 0 0 0 20.419.41a8.522 8.522 0 0 1-2.734.988A4.39 4.39 0 0 0 14.543 0a4.236 4.236 0 0 0-4.312 4.243c0 .335.035.661.113.979C6.76 5.002 3.584 3.245 1.462.59a4.295 4.295 0 0 0-.587 2.174c0 1.51.763 2.851 1.921 3.636A4.313 4.313 0 0 1 .84 5.835v.059a4.379 4.379 0 0 0 3.463 4.282 4.34 4.34 0 0 1-1.134.146 4.405 4.405 0 0 1-.814-.09 4.324 4.324 0 0 0 4.025 3.032A8.619 8.619 0 0 1 0 15.038 12.048 12.048 0 0 0 6.606 17c7.92 0 12.256-6.514 12.256-12.16" fill="currentColor" fill-rule="evenodd"></path></svg>
+                    </a>
+                </li>
+                <li class="sociallist">
+                    <a href="https://www.facebook.com/" title="Facebook" target="_blank" rel="noreferrer noopener">
+                        <svg width="18" height="18" viewBox="0 0 11 23" xmlns="http://www.w3.org/2000/svg"><path d="M6.271 23V11.488h3.892l.619-3.818h-4.51V5.756c0-1 .334-1.947 1.796-1.947H11V0H6.843C3.348 0 2.396 2.251 2.396 5.36v2.31H0v3.818h2.396V23H6.27z" fill="currentColor" fill-rule="evenodd"></path></svg>
+                    </a>
+                </li>
+                <li class="sociallist">
+                    <a href="https://www.instagram.com/" title="Instagram" target="_blank" rel="noreferrer noopener">
+                        <svg width="18" height="18" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor" fill-rule="evenodd"><path d="M18.225 15.204c0 2.17-1.68 3.932-3.744 3.932H5.519c-2.064 0-3.744-1.762-3.744-3.932v-9.41c0-2.168 1.68-3.93 3.744-3.93h8.962c2.064 0 3.744 1.762 3.744 3.93v9.41zM14.481 0H5.519C2.475 0 0 2.599 0 5.794v9.41C0 18.401 2.475 21 5.52 21h8.96c3.045 0 5.52-2.599 5.52-5.796v-9.41C20 2.599 17.525 0 14.48 0z"></path><path d="M10 14.931a3.936 3.936 0 0 1-3.933-3.932A3.938 3.938 0 0 1 10 7.064a3.937 3.937 0 0 1 3.933 3.935A3.936 3.936 0 0 1 10 14.93M10 5c-3.308 0-6 2.69-6 5.999A6.008 6.008 0 0 0 10 17c3.308 0 6-2.694 6-6.001A6.006 6.006 0 0 0 10 5M14.501 3c-.394 0-.783.158-1.06.438-.278.28-.441.666-.441 1.06 0 .395.163.782.44 1.062.278.277.667.44 1.061.44.395 0 .781-.163 1.059-.44.28-.28.44-.667.44-1.061A1.498 1.498 0 0 0 14.501 3"></path></g></svg>
+                    </a>
+                </li>
+            </ul>
+            <div class="copyright pb-0">
+                <div class="copygroup d-block d-md-flex">
+                    <ul class="list-unstyled mb-0 d-flex m-auto m-md-0" style="width:fit-content;">
+                        <li class="copy-list d-flex my-0 ml-0">
+                            <a href="#" class="text-white copy-link d-flex"><span>Home</span></a>
+                        </li>
+                        <li class="copy-list d-flex my-0">
+                            <a href="policy.hmtl" class="text-white copy-link d-flex"><span>Policy</span></a>
+                        </li>
+                        <li class="copy-list d-flex my-0">
+                            <a href="faqs.html" class="text-white copy-link d-flex"><span>FAQ</span></a>
+                        </li>
+                    </ul>
+                    <span class="pt-3 pt-md-0 copyright-message">&copy; 2020, Royal Classic Designs by <a href="https://www.dee-why.netlify.app" style="color:#fff;"><abbr title="Taiwo Adedayo Emmanuel">TAE</abbr></a></span>
+                </div>
+            </div>
+            <!-- <audio controls autoplay>
                 <source src="" type="audio/">
-            </audio>
+            </audio> -->
         </footer>
         
         <!-- Main js -->
-        <script src="js/Bro Timi.js"></script>
-        <script src="js/jquery.slim.min.js" ></script>
-        <script src="js/popper.min.js" ></script>
+        <script src="js/script.js"></script>
+        <script src="js/jquery-3.5.1.slim.min.js" ></script>
+        <!-- <script src="js/popper.min.js" ></script> -->
         <script src="js/bootstrap.min.js" ></script>
+        <script src="js/jquery.listfilter.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                'use strict';
+
+                // Apply a filter to the list
+                var filter = $('input#searchbar'), clearfilter = $('input#clearfilter');
+                $('ul#showroom').listfilter({
+                    'filter': filter,
+                    // 'clearlink': clearfilter,
+                    'alternate': true,
+                    // 'alternateclass': 'other',
+                    'count': $('#count')
+                });
+            });
+        </script>
     </body>
 </html>
